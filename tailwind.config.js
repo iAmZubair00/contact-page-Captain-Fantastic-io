@@ -13,6 +13,16 @@ module.exports = {
         dropDownBorderColor: "#13aff0",
         ddBorderBottomColor: "#f1f1f1",
         ddItemHoverBG: "#F8F8F8",
+        contactInfoBG: "#E9F6F8",
+        contactInfoGradientFrom: "#792cff",
+        contactInfoGradientTo: "#06bdf4",
+        gradientBtnOrange: "#FF8A66",
+        gradientBtnPink: "#FF4570",
+        inputBorder: "#999",
+        btnBorder: "#ff2350",
+        textColor: "#2D2D2D",
+        formInputsBG: "#FCFCFC",
+        formInputsBorder: "#F2F2F2",
         grayBG: "#F1F1F1",
         hrLineColor: "#C1C6CD",
         inherit: "inherit",
@@ -28,6 +38,8 @@ module.exports = {
       },
       spacing: {
         "25vw": "25vw",
+        "70px": "70px",
+        "49%": "49%",
       },
       zIndex: {
         "-1": "-1",
@@ -41,9 +53,15 @@ module.exports = {
       },
       borderRadius: {
         "50%": "50%",
+        "3px": "3px",
+        "50px": "50px",
       },
       boxShadow: {
         customBoxShadow: "0 2px 6px rgb(0 0 0 / 10%)",
+        sbmtBtnShadow: "0px 0px 25px 5px rgb(0 0 0 / 20%)",
+      },
+      lineHeight: {
+        0: "0",
       },
     },
   },
