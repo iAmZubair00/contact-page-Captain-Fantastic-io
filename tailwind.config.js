@@ -21,6 +21,8 @@ module.exports = {
         inputBorder: "#999",
         btnBorder: "#ff2350",
         textColor: "#2D2D2D",
+        textColorOpaque: "rgba(45, 45, 45, 0.6)",
+        textColorMoreOpaque: "rgba(45, 45, 45, 0.4)",
         formInputsBG: "#FCFCFC",
         formInputsBorder: "#F2F2F2",
         grayBG: "#F1F1F1",
@@ -31,6 +33,9 @@ module.exports = {
         contactUsTexture: "url('./assets/images/colorful-texture.jpg')",
         headerBannerBG: "url('./assets/images/contact-header-1.jpg')",
       },
+      backgroundPosition: {
+        "top-center": "top center",
+      },
       screens: {
         lg1200: "1200px",
         lg1150: "1150px",
@@ -40,6 +45,11 @@ module.exports = {
         "25vw": "25vw",
         "70px": "70px",
         "49%": "49%",
+        "7%": "7%",
+        "12%": "12%",
+      },
+      letterSpacing: {
+        "0.6px": "0.6px",
       },
       zIndex: {
         "-1": "-1",
