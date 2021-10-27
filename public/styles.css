@@ -685,6 +685,11 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .-bottom-px {
   bottom: -1px;
 }
@@ -695,6 +700,10 @@ video {
 
 .left-1\/2 {
   left: 50%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .m-auto {
@@ -801,6 +810,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
 }
 
 .flex-grow {
@@ -1013,6 +1026,10 @@ video {
   padding: 1rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1056,6 +1073,16 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-16 {
