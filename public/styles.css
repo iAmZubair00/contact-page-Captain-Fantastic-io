@@ -625,6 +625,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 565px) {
+  .container {
+    max-width: 565px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -685,8 +691,8 @@ video {
   position: relative;
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-10 {
+  top: 2.5rem;
 }
 
 .left-0 {
@@ -707,10 +713,6 @@ video {
 
 .left-1\/2 {
   left: 50%;
-}
-
-.top-10 {
-  top: 2.5rem;
 }
 
 .z-20 {
@@ -783,10 +785,6 @@ video {
   height: 3.5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-10\/12 {
   width: 83.333333%;
 }
@@ -819,6 +817,10 @@ video {
   width: 20rem;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-2\/5 {
   width: 40%;
 }
@@ -839,16 +841,16 @@ video {
   width: 50%;
 }
 
-.w-8\/12 {
-  width: 66.666667%;
-}
-
 .w-56 {
   width: 14rem;
 }
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .flex-grow {
@@ -879,6 +881,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-start {
@@ -917,12 +923,12 @@ video {
   gap: 2.75rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .self-center {
@@ -1108,6 +1114,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -1173,6 +1184,36 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-10\% {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-15\% {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -1235,6 +1276,10 @@ video {
   line-height: 0;
 }
 
+.leading-1\.2 {
+  line-height: 1.2;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -1247,10 +1292,6 @@ video {
 
 .text-textColorOpaque {
   color: rgba(45, 45, 45, 0.6);
-}
-
-.text-textColorMoreOpaque {
-  color: rgba(45, 45, 45, 0.4);
 }
 
 .text-textColor {
@@ -1267,6 +1308,11 @@ video {
   color: rgba(153, 153, 153, var(--tw-text-opacity));
 }
 
+.text-selectOptColor {
+  --tw-text-opacity: 1;
+  color: rgba(192, 92, 90, var(--tw-text-opacity));
+}
+
 .text-footerTextColor {
   --tw-text-opacity: 1;
   color: rgba(71, 71, 71, var(--tw-text-opacity));
@@ -1280,6 +1326,10 @@ video {
 .text-starsYellow {
   --tw-text-opacity: 1;
   color: rgba(251, 225, 34, var(--tw-text-opacity));
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .shadow-customBoxShadow {
@@ -1302,6 +1352,10 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-100 {
+  transition-delay: 100ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1310,20 +1364,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hover\:h-10:hover {
-  height: 2.5rem;
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: var(--tw-transform);
 }
 
-.hover\:h-16:hover {
-  height: 4rem;
-}
-
-.hover\:w-10:hover {
-  width: 2.5rem;
-}
-
-.hover\:w-16:hover {
-  width: 4rem;
+.hover\:transform:hover {
+  transform: var(--tw-transform);
 }
 
 .hover\:bg-ddItemHoverBG:hover {
@@ -1355,6 +1403,15 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.hover\:text-starsYellow:hover {
+  --tw-text-opacity: 1;
+  color: rgba(251, 225, 34, var(--tw-text-opacity));
+}
+
+.hover\:opacity-90:hover {
+  opacity: 0.9;
+}
+
 .hover\:opacity-60:hover {
   opacity: 0.6;
 }
@@ -1365,4 +1422,63 @@ video {
 
 .group:hover .group-hover\:flex {
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-49\% {
+    width: 49%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-64 {
+    width: 16rem;
+  }
+}
+
+@media (min-width: 565px) {
+  .sm565\:flex {
+    display: flex;
+  }
+
+  .sm565\:w-64 {
+    width: 16rem;
+  }
+
+  .sm565\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm565\:items-center {
+    align-items: center;
+  }
+
+  .sm565\:justify-center {
+    justify-content: center;
+  }
+
+  .sm565\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

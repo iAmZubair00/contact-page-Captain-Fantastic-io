@@ -6,8 +6,6 @@ module.exports = {
     extend: {
       colors: {
         footerBG: "#F9F9F9",
-        customGreen: "#5DB05A",
-        customYellow: "#F5E74F",
         customGray: "#686868",
         customBlue: "#00A3E1",
         dropDownBorderColor: "#13aff0",
@@ -21,6 +19,7 @@ module.exports = {
         inputBorder: "#999",
         btnBorder: "#ff2350",
         textColor: "#2d2d2d",
+        selectOptColor: "#C05C5A",
         footerTextColor: "#474747",
         footerTextColorDark: "#2D2D2D",
         starsYellow: "#FBE122",
@@ -29,7 +28,6 @@ module.exports = {
         formInputsBG: "#FCFCFC",
         formInputsBorder: "#F2F2F2",
         grayBG: "#F1F1F1",
-        hrLineColor: "#C1C6CD",
         inherit: "inherit",
       },
       backgroundImage: {
@@ -43,6 +41,7 @@ module.exports = {
         lg1200: "1200px",
         lg1150: "1150px",
         md861: "861px",
+        sm565: "565px",
       },
       spacing: {
         "25vw": "25vw",
@@ -50,6 +49,10 @@ module.exports = {
         "49%": "49%",
         "7%": "7%",
         "12%": "12%",
+      },
+      padding: {
+        "10%": "10%",
+        "15%": "15%",
       },
       letterSpacing: {
         "0.6px": "0.6px",
@@ -75,6 +78,7 @@ module.exports = {
       },
       lineHeight: {
         0: "0",
+        1.2: "1.2",
       },
     },
   },
