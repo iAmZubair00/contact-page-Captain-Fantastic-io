@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       colors: {
         footerBG: "#F9F9F9",
         customGray: "#686868",
@@ -75,6 +78,9 @@ module.exports = {
       boxShadow: {
         customBoxShadow: "0 2px 6px rgb(0 0 0 / 10%)",
         sbmtBtnShadow: "0px 0px 25px 5px rgb(0 0 0 / 20%)",
+      },
+      dropShadow: {
+        bannerTextShadow: "5px 5px 5px #fff",
       },
       lineHeight: {
         0: "0",
