@@ -691,17 +691,8 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .top-10 {
   top: 2.5rem;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .left-0 {
@@ -716,6 +707,10 @@ video {
   right: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .-bottom-px {
   bottom: -1px;
 }
@@ -726,6 +721,10 @@ video {
 
 .z-20 {
   z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .m-auto {
@@ -786,6 +785,10 @@ video {
   height: 1rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-70px {
   height: 70px;
 }
@@ -818,10 +821,6 @@ video {
   width: 75%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -838,8 +837,22 @@ video {
   width: 3.5rem;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+
+.-translate-y-4 {
+  --tw-translate-y: -1rem;
+  transform: var(--tw-transform);
+}
+
+.translate-x-6 {
+  --tw-translate-x: 1.5rem;
+  transform: var(--tw-transform);
 }
 
 .-translate-x-1\/2 {
@@ -996,6 +1009,11 @@ video {
   background-color: rgba(0, 163, 225, var(--tw-bg-opacity));
 }
 
+.bg-bannerOverlayColor {
+  --tw-bg-opacity: 1;
+  background-color: rgba(10, 10, 10, var(--tw-bg-opacity));
+}
+
 .bg-contactInfoBG {
   --tw-bg-opacity: 1;
   background-color: rgba(233, 246, 248, var(--tw-bg-opacity));
@@ -1017,6 +1035,10 @@ video {
 
 .bg-headerBannerBG {
   background-image: url('./assets/images/contact-header-1.jpg');
+}
+
+.bg-headerBannerOverlay {
+  background-image: url('./assets/images/header-opacity.jpg');
 }
 
 .bg-contactUsTexture {
@@ -1132,14 +1154,19 @@ video {
   padding-bottom: 3rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.px-4\% {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .py-70px {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -1180,28 +1207,31 @@ video {
   text-align: center;
 }
 
+.align-text-top {
+  vertical-align: text-top;
+}
+
 .font-montserrat {
   font-family: Montserrat, sans-serif;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-5rem {
+  font-size: 5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -1212,6 +1242,10 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-14px {
+  font-size: 14px;
 }
 
 .font-bold {
@@ -1294,6 +1328,14 @@ video {
   opacity: 0.7;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.mix-blend-lighten {
+  mix-blend-mode: lighten;
+}
+
 .shadow-customBoxShadow {
   --tw-shadow: 0 2px 6px rgb(0 0 0 / 10%);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -1302,6 +1344,11 @@ video {
 .shadow-sbmtBtnShadow {
   --tw-shadow: 0px 0px 25px 5px rgb(0 0 0 / 20%);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .drop-shadow-bannerTextShadow {
@@ -1428,11 +1475,23 @@ video {
     display: flex;
   }
 
+  .sm565\:w-64 {
+    width: 16rem;
+  }
+
   .sm565\:flex-row {
     flex-direction: row;
   }
 
+  .sm565\:items-center {
+    align-items: center;
+  }
+
   .sm565\:justify-center {
     justify-content: center;
+  }
+
+  .sm565\:gap-6 {
+    gap: 1.5rem;
   }
 }

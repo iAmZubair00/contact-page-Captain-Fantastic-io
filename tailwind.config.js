@@ -11,6 +11,7 @@ module.exports = {
         footerBG: "#F9F9F9",
         customGray: "#686868",
         customBlue: "#00A3E1",
+        bannerOverlayColor: "#0A0A0A",
         dropDownBorderColor: "#13aff0",
         ddBorderBottomColor: "#f1f1f1",
         ddItemHoverBG: "#F8F8F8",
@@ -36,6 +37,7 @@ module.exports = {
       backgroundImage: {
         contactUsTexture: "url('./assets/images/colorful-texture.jpg')",
         headerBannerBG: "url('./assets/images/contact-header-1.jpg')",
+        headerBannerOverlay: "url('./assets/images/header-opacity.jpg')",
       },
       backgroundPosition: {
         "top-center": "top center",
@@ -52,6 +54,7 @@ module.exports = {
         "49%": "49%",
         "7%": "7%",
         "12%": "12%",
+        "4%": "4%",
       },
       padding: {
         "10%": "10%",
@@ -81,6 +84,10 @@ module.exports = {
       },
       dropShadow: {
         bannerTextShadow: "5px 5px 5px #fff",
+      },
+      fontSize: {
+        "5rem": "5rem",
+        "14px": "14px",
       },
       lineHeight: {
         0: "0",
