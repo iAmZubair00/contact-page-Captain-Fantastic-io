@@ -93,6 +93,9 @@ module.exports = {
         0: "0",
         1.2: "1.2",
       },
+      width: {
+        calculated: "calc(100% + 1.3px)",
+      },
     },
   },
   variants: {
