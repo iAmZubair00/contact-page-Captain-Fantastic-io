@@ -27,6 +27,7 @@ module.exports = {
         footerTextColor: "#474747",
         footerTextColorDark: "#2D2D2D",
         starsYellow: "#FBE122",
+        textColorLessOpaque: "rgba(45, 45, 45, 0.8)",
         textColorOpaque: "rgba(45, 45, 45, 0.6)",
         textColorMoreOpaque: "rgba(45, 45, 45, 0.4)",
         formInputsBG: "#FCFCFC",
@@ -62,6 +63,7 @@ module.exports = {
       },
       letterSpacing: {
         "0.6px": "0.6px",
+        "1.6px": "1.6px",
       },
       zIndex: {
         "-1": "-1",
@@ -88,6 +90,8 @@ module.exports = {
       fontSize: {
         "5rem": "5rem",
         "14px": "14px",
+        "15px": "15px",
+        "36px": "36px",
       },
       lineHeight: {
         0: "0",
@@ -95,6 +99,10 @@ module.exports = {
       },
       width: {
         calculated: "calc(100% + 1.3px)",
+        "15px": "15px",
+      },
+      height: {
+        "15px": "15px",
       },
     },
   },
