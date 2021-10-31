@@ -44,6 +44,7 @@ module.exports = {
         "top-center": "top center",
       },
       screens: {
+        lg1191: "1191px",
         lg1200: "1200px",
         lg1150: "1150px",
         md861: "861px",
